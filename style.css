@@ -1,3 +1,16 @@
 body{
     background-color:red;
 }
+
+#time, #date, #week-day, h2{
+    color:green;
+    text-align: left;
+    margin:0,10px;
+    font-size: 40px;
+}
+
+h1{
+    color: orange;
+    text-align: center;
+    font-size:50px;
+}
