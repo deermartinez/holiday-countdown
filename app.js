@@ -167,12 +167,25 @@ console.log(total.toFixed(2));
 // Declare and assign values to three variables for each part of the sentence that changes 
 // (firstName, interest, and hobby).
 
-// Use your variables and string concatenation to create your own awesome message and store it in an awesomeMessage variable. Finally, print your awesome message to the JavaScript console.
+// Use your variables and string concatenation to create your own awesome message and store 
+// it in an awesomeMessage variable. Finally, print your awesome message to the JavaScript console.
 
 // Your Code:
 
+var myName = "Julia";
+var love = "cats";
+var time = "play video games";
+var bio = "Hi, my name is " + myName + ". I love " + love + ". In my spare time, I like to " + time + "."
+console.log(bio);
 
 
-//Create 2 variables one called big and one called small. Set the strings to each: "I am Big like a elepant!" "I am Small like a mouse!". Use string methods to make the 
+//Create 2 variables one called big and one called small. Set the strings to each: "I am Big like a elepant!" 
+// "I am Small like a mouse!". Use string methods to make the 
 //'small' variable lowercase and the 'big' variable capital.
 //console.log out the results
+
+var big = "I am Big like an elephant!";
+var small = "I am small like a mouse";
+
+console.log(big.toUpperCase());
+console.log(small.toLowerCase());
