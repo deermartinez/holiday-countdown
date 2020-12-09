@@ -189,3 +189,15 @@ var small = "I am small like a mouse";
 
 console.log(big.toUpperCase());
 console.log(small.toLowerCase());
+
+
+
+
+
+
+
+
+
+
+
+
